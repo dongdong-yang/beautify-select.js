@@ -1,6 +1,6 @@
 # display-value-as-column.js
 
-## Since moden browsers cannot format options of select, so here is a tricky solution to allow 
+## Since moden browsers cannot format options of select, so here is a tricky solution to enable it. 
 
 >**This solution is very tricky and smart, great idea comes from *dkellner*, check the link in bottom.**
 
