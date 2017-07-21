@@ -1,5 +1,9 @@
-
-
+/**
+ * @author Dongdong Yang <hi@dongdong.ca>
+ * Copyright (c) 2017 Dongdong Yang - released under MIT License
+ * https://github.com/stupidong/display-value-as-column.js
+ * Usage: readme.md
+**/
 
 jQuery.fn.extend({
   DisplayValueAsColumn: function(items) {
