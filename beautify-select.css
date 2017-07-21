@@ -3,8 +3,9 @@
   position:relative;
  }
 
-/* here should be dynamic width, you can change by your code*/
+
 .beautify-select select {
+  /* here should be dynamic width, you can change by your code*/
   width:350px;
   padding:5px;
 }
