@@ -16,9 +16,11 @@
   left:0px;
   display:none;
 }
+
 .display-value-as-column select.value-select option:before {
   content:attr(value);
   display: inline-block;
+  /* here should be dynamic width, you can change by your code*/
   width: 120px;
   left:120px;  
 }
