@@ -30,6 +30,13 @@ The function will wrap your select with following html archtechture.
     </span>
 </div>
 ```
+
+
+you can get your selected value by orignal method.
+```
+$('#you-id').val();
+```
+
 enjoy it
 
 Idea comes form: https://jsfiddle.net/dkellner/7ac9us70/
