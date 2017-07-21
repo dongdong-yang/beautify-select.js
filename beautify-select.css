@@ -1,26 +1,26 @@
 /* required part */
-.display-value-as-column span {
+.beautify-select span {
   position:relative;
  }
 
 /* here should be dynamic width, you can change by your code*/
-.display-value-as-column select {
+.beautify-select select {
   width:350px;
   padding:5px;
 }
-.display-value-as-column select.display-select option {
+.beautify-select select.display-select option {
   display:none;
 }
-.display-value-as-column select.value-select {
+.beautify-select select.value-select {
   position:absolute;
   left:0px;
   display:none;
 }
 
-.display-value-as-column select.value-select option:before {
+.beautify-select select.display-value-as-column option:before {
   content:attr(value);
   display: inline-block;
   /* here should be dynamic width, you can change by your code*/
-  width: 120px;
-  left:120px;  
+  width: 80px;
+  left:80px;  
 }
