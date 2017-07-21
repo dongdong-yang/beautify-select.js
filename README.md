@@ -32,6 +32,4 @@ You can apply it with html format, but you have to impliment your own event
 
 enjoy it
 
-references:
-
-https://codepen.io/ericrasch/pen/zjDBx
+Beauty references: https://codepen.io/ericrasch/pen/zjDBx
