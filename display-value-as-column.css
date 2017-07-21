@@ -1,20 +1,20 @@
 /* required part */
-.select-value-to-column span {
+.display-value-as-column span {
   position:relative;
  }
-.select-value-to-column select {
+.display-value-as-column select {
   width:350px;
   padding:5px;
 }
-.select-value-to-column select.display-select option {
+.display-value-as-column select.display-select option {
   display:none;
 }
-.select-value-to-column select.value-select {
+.display-value-as-column select.value-select {
   position:absolute;
   left:0px;
   display:none;
 }
-.select-value-to-column select.value-select option:before {
+.display-value-as-column select.value-select option:before {
   content:attr(value);
   display: inline-block;
   width: 120px;
