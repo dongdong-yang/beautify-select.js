@@ -8,6 +8,7 @@
 
 You can call your existing select by following method
 ```
+    <link href="~/Content/beautify-select.css" rel="stylesheet" />
     <script src="~/Scripts/beautify-select.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
