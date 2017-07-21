@@ -1,3 +1,6 @@
+
+
+
 jQuery.fn.extend({
   DisplayValueAsColumn: function(items) {
     var self=this;
@@ -11,7 +14,7 @@ jQuery.fn.extend({
       })
       $self.attr('size', Object.keys(items).length);
     }  
-    $self.wrap('<div class="select-value-to-column"></div>').wrap('<span>');
+    $self.wrap('<div class="display-value-as-column"></div>').wrap('<span>');
     
     var displaySelect=$('<select class="display-select"></select>');
     $self.before(displaySelect);
