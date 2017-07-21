@@ -17,7 +17,7 @@
   display:none;
 }
 
-.beautify-select select.display-value-as-column option:before {
+.beautify-select select.value-select.display-value-as-column option:before {
   content:attr(value);
   display: inline-block;
   /* here should be dynamic width, you can change by your code*/
