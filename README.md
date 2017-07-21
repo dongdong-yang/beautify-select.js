@@ -8,22 +8,43 @@
 
 You can call your existing select by following method
 ```
-    var items={
-      "gandalf":"Gandalf",
-      "harry":"Harry Potter",
-      "jon":"Jon Snow",
-      "tony":"Tony Stark",
-      "steve":"Steven Rogers",
-      "natasha":"Natasha Romanova",
-    }
+    <script src="~/Scripts/beautify-select.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var items = {
+                "gandalf": "Gandalf",
+                "harry": "Harry Potter",
+                "jon": "Jon Snow",
+                "tony": "Tony Stark",
+                "steve": "Steven Rogers",
+                "natasha": "Natasha Romanova",
+            }
 
-    $('#you-id').DisplayValueAsColumn(items);
+            $('#test-select').BeautifySelect({
+                items: items,
+                showValue: true,
+                classes: {
+                    wrapper: '',
+                    select: '',
+                    option: '',
+                    group: '',
+                },
+                styles: {
+                    wrapper: '',
+                    select: '',
+                    option: '',
+                    group: '',
+                }
+            });
+
+        });
+    </script>
 
 ```
 
 The function will wrap your select with following html archtechture.
 ```
-<div class="display-value-as-column">
+<div class="beautify-select">
     <label>not required</label>
     <span>
     	<select class='display-select' >
