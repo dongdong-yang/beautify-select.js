@@ -1,4 +1,4 @@
-# display-value-as-column.js
+# beautify-select.js
 
 ## Since moden browsers cannot format options of select, so here is a tricky solution to enable it. 
 
