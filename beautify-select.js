@@ -2,7 +2,7 @@
  * @author Dongdong Yang <hi@dongdong.ca>
  * Copyright (c) 2017 Dongdong Yang - released under MIT License
  * https://github.com/stupidong/display-value-as-column.js
- * Usage: $('#yourselect').DisplayValueAsColumn(data);
+ * Usage: $('#yourselect').BeautifySelect(data);
 **/
 
 jQuery.fn.extend({
