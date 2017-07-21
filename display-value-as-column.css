@@ -2,6 +2,8 @@
 .display-value-as-column span {
   position:relative;
  }
+
+/* here should be dynamic width, you can change by your code*/
 .display-value-as-column select {
   width:350px;
   padding:5px;
