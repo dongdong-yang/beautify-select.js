@@ -18,7 +18,7 @@ You can call your existing select by following method
 
 You can apply it with html format, but you have to impliment your own event
 ```
-<div class="select-value-to-column">
+<div class="display-value-as-column">
     <label>not required</label>
     <span>
     	<select class='display-select' >
