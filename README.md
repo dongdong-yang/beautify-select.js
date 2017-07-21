@@ -13,24 +13,23 @@ You can call your existing select by following method
       "natasha":"Natasha Romanova",
     }
 
-    $('#test-select').DisplayValueAsColumn(items);
+    $('#you-id').DisplayValueAsColumn(items);
 
 ```
 
-You can apply it with html format, but you have to impliment your own event
+The function will wrap your select with following html archtechture.
 ```
 <div class="display-value-as-column">
     <label>not required</label>
     <span>
     	<select class='display-select' >
-      </select>
-      <br>
-    	<select class='value-select' >
+        </select>
+        <br>
+    	<select class='value-select' id='you-id' size='options length'>
     	</select>
     </span>
 </div>
 ```
-
 enjoy it
 
 Idea comes form: https://jsfiddle.net/dkellner/7ac9us70/
