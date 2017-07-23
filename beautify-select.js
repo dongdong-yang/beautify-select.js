@@ -1,7 +1,7 @@
 /**
  * @author Dongdong Yang <hi@dongdong.ca>
  * Copyright (c) 2017 Dongdong Yang - released under MIT License
- * https://github.com/stupidong/display-value-as-column.js
+ * https://github.com/stupidong/beautify-select.js
  * Usage: $('#yourselect').BeautifySelect(options);
 **/
 
